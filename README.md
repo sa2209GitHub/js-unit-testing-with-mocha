@@ -12,6 +12,8 @@ JavaScript Unit Testing with Mocha
     ```
 
 
-    [FIRST TEST](./test/myFirstTest.js)
+    [FIRST TEST](./test/myFirstTest.test.js)
 
-    Detects Multiple Calls: [CODE](./src/detectsMultipleCallsTo.js) [TEST](./test/detectsMultipleCallsTo..test.js)
+    Pow Function Testing:       [CODE](./src/powExampleFn.js)           [TEST](./test/powExampleFn.test.js)
+
+    Detects Multiple Calls:     [CODE](./src/detectsMultipleCallsTo.js) [TEST](./test/detectsMultipleCallsTo.test.js)
