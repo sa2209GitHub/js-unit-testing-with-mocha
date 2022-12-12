@@ -1,0 +1,29 @@
+{
+  "name": "js-unit-testing-with-mocha",
+  "version": "1.0.0",
+  "description": "JavaScript Unit Testing with Mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sa2209GitHub/js-unit-testing-with-mocha.git"
+  },
+  "keywords": [
+    "unit",
+    "testing",
+    "mocha",
+    "js",
+    "javascript"
+  ],
+  "author": "sa <sa@mail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sa2209GitHub/js-unit-testing-with-mocha/issues"
+  },
+  "homepage": "https://github.com/sa2209GitHub/js-unit-testing-with-mocha#readme",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
