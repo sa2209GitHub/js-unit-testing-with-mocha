@@ -6,14 +6,7 @@ JavaScript Unit Testing with Mocha
     npm init [-y]
     ```
 
-2.  Install *mocha* as development dependency
+2.  Install *'mocha', 'chai', 'nyc'* and *'sinon'* as development dependencies
     ```bash
-    npm i -D mocha
+    npm i -D mocha chai nyc sinon
     ```
-
-
-    [FIRST TEST](./test/myFirstTest.test.js)
-
-    Pow Function Testing:       [CODE](./src/powExampleFn.js)           [TEST](./test/powExampleFn.test.js)
-
-    Detects Multiple Calls:     [CODE](./src/detectsMultipleCallsTo.js) [TEST](./test/detectsMultipleCallsTo.test.js)

@@ -1,4 +1,4 @@
-const done = require('../src/detectsMultipleCallsTo')
+const done = require('../../01_intro/detectsMultipleCallsTo')
 
 describe('#done() method', function() {
     it('should only be called once', function(done) {

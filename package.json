@@ -4,7 +4,7 @@
   "description": "JavaScript Unit Testing with Mocha",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha ./specs/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,9 @@
   },
   "homepage": "https://github.com/sa2209GitHub/js-unit-testing-with-mocha#readme",
   "devDependencies": {
-    "mocha": "^10.2.0"
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "sinon": "^15.0.0"
   }
 }
