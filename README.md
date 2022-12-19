@@ -6,7 +6,17 @@ JavaScript Unit Testing with Mocha
     npm init [-y]
     ```
 
-2.  Install *'mocha', 'chai', 'nyc'* and *'sinon'* as development dependencies
+2.  Install *'mocha', 'chai', 'nyc', 'sinon'* and *'sinon-chai'* as development dependencies
     ```bash
-    npm i -D mocha chai nyc sinon
+    npm i -D mocha chai nyc sinon sinon-chai
+    ```
+
+3.  Install *'big-js'*
+    ```bash
+    npm i big-js
+    ```
+
+4.  Install *'axios'*
+    ```bash
+    npm i axios
     ```
