@@ -4,7 +4,8 @@
   "description": "JavaScript Unit Testing with Mocha",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./specs/**/*.js"
+    "test": "mocha ./specs/**/*.js",
+    "coverage": "nyc --reporter=html npm test"
   },
   "repository": {
     "type": "git",

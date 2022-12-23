@@ -133,13 +133,6 @@ describe('Unit Testing Synchronous Code', () => {
         })
     })
 
-// 'should return the result of adding two integers', () => {
-// 'should return the correct result of adding one or two floating point numbers', () => {
-// 'should be able to handle only one number', () => {
-// 'should be able to handle zero numbers', () => {
-// 'should return the correct value even if any of the arguments is not a numeric value', () => {
-// 'should return the correct value even if any of the arguments is NaN', () => {
-
     describe(`the 'div()' function`, () => {
         it('should return NaN if the divisor is zero', () => {
             const result = div(6, 0)
